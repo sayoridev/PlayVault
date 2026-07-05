@@ -1,0 +1,13 @@
+build/
+bin/
+obj
+*.o
+*.a
+*.so
+*.out
+
+.vscode/
+.idea/
+*.user
+
+*.json
