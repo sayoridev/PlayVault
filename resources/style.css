@@ -1,0 +1,70 @@
+/* main window */
+window, mainbox {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+
+box.horizontal, box.vertical {
+    background-color: #1e1e1e;
+}
+
+/* sidebar */
+scrolledwindow, flowbox, gridview {
+    background-color: #121212;
+}
+
+
+button.flat {
+    color: #cccccc;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+button.flat:hover {
+    background-color: rgba(255, 255, 255, 0.07);
+    color: #ffffff;
+}
+
+/* single card theme */
+flowboxchild {
+    background-color: #1e1e1e; 
+    border: 1px solid #2d2d2d;  
+    border-radius: 6px;       
+    padding: 4px 4px 2px 4px; 
+    margin: 4px;              
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4); 
+    transition: transform 0.2s ease-in-out, background-color 0.2s, border-color 0.2s;
+}
+
+/* hover effect */
+flowboxchild:hover:not(:selected) {
+    background-color: #262626;
+    border-color: #454545;
+    transform: translateY(-1px); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* text name */
+flowboxchild label {
+    color: #aaaaaa;
+    font-size: 11px;
+    margin-top: 2px;   
+    margin-bottom: 1px;
+}
+
+/* selected card */
+flowboxchild:selected {
+    background-color: #3584e4;
+    border-color: #1f60b4;
+    transform: scale(0.98);
+}
+
+flowboxchild:selected label {
+    color: #ffffff;
+}
+
+flowboxchild image {
+    border-radius: 4px;
+}
