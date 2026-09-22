@@ -8,8 +8,8 @@ PlayVault is a desktop app written in C++ and GTKmm for managing a local library
 - libcurl
 
 ## How to compile
-'''mkdir build
+''mkdir build
 cd build
 cmake ..
 make
-./PlayVault'''
+./PlayVault''
